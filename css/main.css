@@ -1,0 +1,17 @@
+body {
+	padding-top: 70px;
+}
+.carousel img {
+  background-size: cover;
+  width: 100%;
+}
+p {
+	color: black;
+}
+/*h3 {
+	color: gray;
+}*/
+.btn-group {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
