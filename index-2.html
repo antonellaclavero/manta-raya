@@ -9,6 +9,7 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,17 +19,13 @@
         <![endif]-->
       </head>
       <body>
-        <header class="menu">
-          <img src="images/logo.png" alt="logo">
-          <div class="btn-group btn-group-justified">
-            <div class="btn-group">
-              <a class="btn btn-default" href="#sobre-mi" role="button">Sobre Manta Raya</a>
-            </div>
-            <div class="btn-group">
-              <a class="btn btn-default" href="#contacto" role="button">Contacto</a>
-            </div>
-          </div>
-        </header> 
+        <header class="header">
+          <ul class="nav nav-pills pull-right">
+            <li><a href="#sobre-mi">Sobre Manta Raya</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+          </ul>
+          <h1><img src="images/logo.png" alt="Manta Raya"></h1>
+        </header>
 
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
           <!-- Indicators -->
@@ -40,6 +37,7 @@
 
           <!-- Wrapper for slides -->
           <section id="productos">
+            <h1 class="hidden">Productos</h1>
             <div class="carousel-inner">
               <div class="item active">
                 <img src="images/presentacion.jpg" alt="Rock your boots">
@@ -83,36 +81,37 @@
 
           <section id="sobre-mi">
             <h1>Sobre Manta Raya</h1>
-            <img src="images/logo.png" alt="logo Manta-Raya">
             <p>
                 MANTA RAYA SHOES es una marca ecléctica en donde se mezcla lo trash y lo clásico. 
                 Creatividad en los diseños y delicadeza en los detalles. 100% cuero
+                Realizamos envíos al interior del País
             </p>
-            <p> Realizamos envíos al interior del País</p>
           </section>
 
           <footer id="contacto">
               <ul>
                 <li>
                     <a href="https://www.facebook.com/pages/Manta-Raya/425770914183500?fref=ts" target="_blank">
-                        <span>Facebook</span>
+                        <i class="fa fa-facebook-square"></i> 
+                        Facebook
                     </a>
                 </li>
                 <li>
                     <a href="mailto:mantarayabrand@gmail.com"target="_blank">
-                        <span>E-mail</span>
+                        <i class="fa fa-envelope"></i>
+                        E-mail
                     </a>
                 </li>
                 <li>
-                  <address>
-                    <strong>Manta-Raya</strong><br>
-                    José Ellauri 885<br>
-                    Montevideo-Uruguay<br>
-                    <abbr title="Phone">P:</abbr> 099220711 - 099726393
-                  </address>
+                    <i class="fa fa-home"></i>
+                    José Ellauri 885
+                </li>
+                <li>
+                    <i class="fa fa-phone-square"></i>
+                    099220711 - 099726393
                 </li>
               </ul>
-          
+               
           <!--media-queries-->
           <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-8">

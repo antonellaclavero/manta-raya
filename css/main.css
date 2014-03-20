@@ -1,17 +1,23 @@
-body {
-	padding-top: 70px;
-}
-.carousel img {
-  background-size: cover;
-  width: 100%;
-}
 p {
 	color: black;
 }
-/*h3 {
-	color: gray;
-}*/
-.btn-group {
-	padding-bottom: 10px;
-	padding-top: 10px;
+/*header*/
+header {
+	margin: 0 30px 37px 30px;
+}
+header ul {
+	margin-top: 43px;
+}
+/*carousel*/
+.carousel img {
+  	background-size: cover;
+  	width: 100%;
+}
+/*footer*/
+#contacto {
+	padding: 0;
+  	text-align: center;
+}
+#contacto li {
+	list-style: none;
 }
